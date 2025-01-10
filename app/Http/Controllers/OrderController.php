@@ -43,6 +43,6 @@ class OrderController extends Controller
     public function show($id){
         $order = Order::with('items.product')->findOrFail($id); //get the order with the items and product
 
-        return view('order.show', compact('order')); // compact('order') is used to pass the order to the view
+        return view('orders.show', compact('order')); // compact('order') is used to pass the order to the view
 }
 }
