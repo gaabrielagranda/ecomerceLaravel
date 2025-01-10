@@ -6,7 +6,7 @@ use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class page-base-template extends Component
+class page_base_template extends Component
 {
     /**
      * Create a new component instance.
@@ -21,6 +21,6 @@ class page-base-template extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.page-base-template');
+        return view('components.page_base_template');
     }
 }
