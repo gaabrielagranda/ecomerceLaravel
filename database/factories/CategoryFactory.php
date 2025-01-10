@@ -22,7 +22,3 @@ class CategoryFactory extends Factory
     }
 }
 
-//'name' => fake()->unique()->word(),
-//'description' => fake()->text(50),
-//'price' => fake()->decimal(2, 1, 100)
-//'category_id' => Category::factory(),
