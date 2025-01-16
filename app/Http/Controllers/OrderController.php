@@ -26,7 +26,7 @@ class OrderController extends Controller
         //here we will create the order
         $order = Order::create([ //this creates the order
             'user_id' => auth()->id(),
-            'total' => $total,
+            'total_amount' => $total,
         ]);
 
         foreach($items as $item){ //loop through the items

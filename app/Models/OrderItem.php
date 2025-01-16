@@ -9,10 +9,10 @@ class OrderItem extends Model
     protected $fillable=['cart_id', 'product_id', 'quantity', 'price'];
 
 public function order() {
-    return $this->has(Order::class);
+    return $this->belongsTo(Order::class);
 }
 
 public function product() {
-    return $this->has(Product::class);
+    return $this->belongsTo(Product::class);
 }
 }

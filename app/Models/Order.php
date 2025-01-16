@@ -8,7 +8,7 @@ class Order extends Model
 {
     protected $fillable=['user_id', 'total_amount'];
 
-public function item() {
+public function items() {
     return $this->hasMany(OrderItem::class);
 }
 }
