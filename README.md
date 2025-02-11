@@ -94,8 +94,3 @@ Mejoras futuras
 -----------
 
 -   [Gabriela Granda] - [@gaabrielagranda](https://github.com/gaabrielagranda))
-
-📝 Licencia
------------
-
-Este proyecto se encuentra bajo la licencia MIT.
