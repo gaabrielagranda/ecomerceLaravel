@@ -79,6 +79,9 @@ Uso
 Capturas de pantalla
 -----------------------
 
+<img width="688" alt="image" src="https://github.com/user-attachments/assets/d33fb169-3f43-483c-9d9e-a3b8f154735a" />
+
+
 Mejoras futuras
 ------------------
 
